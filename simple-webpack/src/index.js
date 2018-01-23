@@ -1,7 +1,7 @@
 import * as p5 from 'p5'
 
 const sketch = new p5(() => { })
-let img;
+
 sketch.setup = () => {
   sketch.createCanvas(400, 400)
   sketch.background(50);
