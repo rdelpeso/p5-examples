@@ -2,14 +2,18 @@
   "name": "simple-webpack",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": ">=8"
+  },
   "main": "index.js",
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
     "serve": "http-server ./dist"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "rdelpeso",
+  "license": "UNLICENSED",
+  "private": true,
   "devDependencies": {
     "html-webpack-plugin": "^2.30.1",
     "http-server": "^0.11.1",
