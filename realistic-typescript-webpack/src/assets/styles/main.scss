@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 600px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  background-color: #999;
+
+  canvas {
+    border: 3px #333 solid;
+  }
+}

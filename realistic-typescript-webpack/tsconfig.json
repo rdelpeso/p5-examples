@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "es6",
+      "dom.iterable",
+      "scripthost",
+      "es2017.object",
+    ],
+    "module": "esnext",
+    "target": "es6"
+  },
+  "exclude": [
+    "**/*.spec.ts"
+  ]
+}

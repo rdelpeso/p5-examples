@@ -34,3 +34,18 @@ This sample includes:
   name as the module, confusing the import clause.
 - Sample typescript code making use of p5 in instance mode
 - Auto generated html with the generated js bundle file injected
+
+## realistic-typescript-webpack
+Expands on simple-typescript-webpack by adding SASS support, a custom html
+template and it separates the webpack-runtime, node_modules and app JS files
+into separate artifacts. Making it easier to develop without having to
+re-compile the big chunks. A few modifications were necessary to exemplify the
+embedding of the canvas inside a div but otherwise is mostly unchanged.
+
+This sample includes:
+- Single entry point src/index.ts
+- Import of p5 via typescript method
+- Sample typescript code making use of p5 in instance mode
+- Sample SASS style code
+- Auto generated html with custom template that incorporates the generated js
+  and css bundles
