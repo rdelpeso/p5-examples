@@ -26,6 +26,6 @@ module.exports = {
   plugins: [
     // This will enforce TypeScript compilation without errors.
     new webpack.NoEmitOnErrorsPlugin(),
-    new HtmlWebpackPlugin({ title: 'Typescript Webpack', hash: true }),
+    new HtmlWebpackPlugin({ title: 'Simple Typescript Webpack', hash: true }),
   ]
 }
