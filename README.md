@@ -9,7 +9,7 @@ expected, please check your node version.
 - Enter the sample directory you wish to test
 - Run `npm install`
 - Run `npm build`
-- Run `npm serve`
+- Run `npm serve` (http-server will tell you where the sample is visible from)
 
 The resulting code is located in `<sample-name>/dist`
 
