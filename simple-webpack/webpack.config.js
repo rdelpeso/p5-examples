@@ -1,10 +1,5 @@
 const path = require('path')
-const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-
-let plugins = [
-  new HtmlWebpackPlugin({ title: 'ERA Voyage', hash: true }),
-]
 
 module.exports = {
   entry: {
@@ -17,5 +12,7 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
-  plugins
+  plugins: [
+    new HtmlWebpackPlugin({ title: 'Simple Webpack', hash: true }),
+  ]
 }
