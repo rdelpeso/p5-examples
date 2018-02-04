@@ -1,6 +1,18 @@
 # p5-examples
 Examples of using p5 in a non-traditional way.
 
+## Prerequisites
+All samples were tested with node 8 and above. If something is not working as
+expected, please check your node version.
+
+## How to run the samples
+- Enter the sample directory you wish to test
+- Run `npm install`
+- Run `npm build`
+- Run `npm serve`
+
+The resulting code is located in `<sample-name>/dist`
+
 ## simple-webpack
 A minimalistic setup that makes use of webpack to compile your code and p5 into a
 single js file. This would allow for further transformations via transpiling, chunk
@@ -12,11 +24,13 @@ This sample includes:
 - Sample code making use of p5 in instance mode
 - Auto generated html with the generated js bundle file injected
 
-This sample is fairly simple to get running:
-- Run npm install
-- Run npm run build
-- Run npm run serve
-  - This is an optional nice to have that will launch a web server on port 8080 for
-    you to look at your code in action
+## simple-typescript-webpack
+Expands on simple-webpack by adding typescript support. It is otherwise
+identical.
 
-The compiled code will be inside the dist directory.
+This sample includes:
+- Single entry point src/index.ts
+- Import of p5 which is sort of odd due to the definition file having the same
+  name as the module, confusing the import clause.
+- Sample typescript code making use of p5 in instance mode
+- Auto generated html with the generated js bundle file injected
