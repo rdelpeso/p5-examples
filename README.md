@@ -1,5 +1,5 @@
 # p5-examples
-Examples of using p5 in a non-traditional way.
+Examples of using p5 in non-traditional ways.
 
 ## Prerequisites
 All samples were tested with node 8 and above. If something is not working as
